@@ -1,6 +1,6 @@
 # Counterstroke
 
-A tool to encode binary data via Chinese (Simplified) characters from the Unihan database.
+A tool to encode binary data via Chinese (Simplified) characters from the Unihan database based on the total number of strokes a chinese character has.
 
 ### Brief Description of Algorithm
 
