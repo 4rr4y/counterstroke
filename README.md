@@ -8,10 +8,10 @@ For encoding, we convert the input into a hexadecimal payload, the first 4 bits 
 
 ### Examples
 
-It should work on both text files:
+It should work on text files, e.g.:
 
+**Run 1**
 ```sh
-# Run 1
 
 $ "The quick brown fox jumps over the lazy dog." | python3 counterstroke.py -e
 
@@ -20,9 +20,10 @@ $ "The quick brown fox jumps over the lazy dog." | python3 counterstroke.py -e
 $ echo -n "浐泼绤蒇涩选讷仓脸龙䓓阂玺锛郸囵烬踬钆斗获讻窑机挙䍁铟稆涡鳎伤队贾谂载镲铰锉夸长唡谭羟烂称鳁绺仓惧启纪专疴骥赉剧谄荦掷吗划韦硙侧骍琼敌珑贠户剧鲲贾击渔鲟 铑缚邬斗热虏铃骥涩阈孙㘎气厮" | python3 counterstroke.py -d
 
 The quick brown fox jumps over the lazy dog. 
+```
 
-# Run 2 (different chinese characters involved)
-
+**Run 2 (different chinese characters involved)**
+```sh
 $ echo "The quick brown fox jumps over the lazy dog." | python3 counterstroke.py -e
 
 狲垆埚属铃骁扫计偬闪辄恹馀榄党抢涡瘫孙长颀扩盘尘砺鿸羟铦㭣彝纩劝鸲莴赶攒啯觞约厅钸䌽铬珑递鳃铚书鸾员妇历恳颤阊党桡栉馃负异历笾祎栗鹅铌贰争仅谂辚硁轧绸鲞萝携寻气虑姗家癣痈铢价鹮凤缨% 
@@ -32,7 +33,7 @@ $ echo -n "狲垆埚属铃骁扫计偬闪辄恹馀榄党抢涡瘫孙长颀扩盘
 The quick brown fox jumps over the lazy dog.% 
 ```
 
-And other files (for reference, `biang.jpg` is included in the repo):
+It also work on other file types (for reference, `biang.jpg` is included in the repo):
 
 ```sh
 $ cat biang.jpg | python3 counterstroke.py -e | python3 counterstroke.py -d > biang2.jpg
