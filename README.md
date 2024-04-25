@@ -30,7 +30,7 @@ $ echo "The quick brown fox jumps over the lazy dog." | python3 counterstroke.py
 
 $ echo -n "狲垆埚属铃骁扫计偬闪辄恹馀榄党抢涡瘫孙长颀扩盘尘砺鿸羟铦㭣彝纩劝鸲莴赶攒啯觞约厅钸䌽铬珑递鳃铚书鸾员妇历恳颤阊党桡栉馃负异历笾祎栗鹅铌贰争仅谂辚硁轧 绸鲞萝携寻气虑姗家癣痈铢价鹮凤缨" | python3 counterstroke.py -d
 
-The quick brown fox jumps over the lazy dog.% 
+The quick brown fox jumps over the lazy dog.
 ```
 
 It also work on other file types (for reference, `biang.jpg` is included in the repo):
